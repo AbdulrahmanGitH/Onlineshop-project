@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>fff</h1>
-    <h2>hhh</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    />
+    <script src="https://kit.fontawesome.com/f6adf96490.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tech Shop</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Coffee<br />Shop</h1>
+    </header>
+
+    <main>
+        <p>
+          We believe that the key to an exceptional cup of coffee starts with the beans. Sourced from the finest coffee-growing regions around the world, our beans are carefully selected for their rich flavors and unique characteristics. Whether you prefer a bold, dark roast or a smooth, medium blend, our expertly roasted beans promise a delightful coffee experience with every cup. Elevate your coffee ritual with our premium beans and taste the difference that quality makes. Brew fresh, savor the aroma, and enjoy the perfect start to your day.
+        </p>
+
+
+      <!-- Product Cards -->
+      <section class="products">
+        <h2>Our Products</h2>
+        <div class="cards">
+          <div class="product-card">
+            <img src="https://www.giftup.eu/wp-content/uploads/2019/12/ANTI-AGE-COFFEE-40g-600x600.png.webp" alt="Laptop" />
+            <p>
+              ANTI-AGE-COFFEE <a href="#" target="_blank"></a><br />
+              Price: <strong>$50</strong>
+            </p>
+          </div>
+          <div class="product-card">
+            <img src="https://www.giftup.eu/wp-content/uploads/2020/05/IMMUNITY-COFFEE20125g_0-600x600.png.webp" alt="Laptop" />
+            <p>
+              IMMUNITY-COFFEE <a href="#" target="_blank"></a><br />
+              Price: <strong>$80.99</strong>
+            </p>
+          </div>
+          <div class="product-card">
+            <img src="https://www.giftup.eu/wp-content/uploads/2019/12/ARABICA-COFFEE-40g-600x600.png.webp" alt="Laptop" />
+            <p>
+              ARABICA-COFFEE <a href="#" target="_blank"></a><br />
+              Price: <strong>$99.9</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Contact Form -->
+      <section class="contact">
+        <h2>Contact Us!</h2>
+        <!-- form -->
+      </section>    
+      <form method="post" action="www.programiz.com/user" class="input">
+        <div class="Contect">Contect us</div>
+        <div class="detials">Enter your detials</div>
+        <label for="name">Tell us who you are:</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Please fill in your full name"
+          pattern=".{1,}"
+        /><br />
+        <label for="contact">Tell us how to contact you:</label>
+        <input
+          type="text"
+          name="contact"
+          placeholder="Please enter your email"
+          pattern=".{5,}"
+        /><br />
+        <label for="topic">How can we help you:</label>
+        <input
+          type="text"
+          name="topic"
+          placeholder="Send us a message!"
+          pattern=".{1,}"
+        /><br />
+        <input type="submit" />
+      </form>
+
+      <!-- Footer Links -->
+      <footer>
+        <h2>Do you want to follow us?</h2>
+        <h3>Check out our social media pages!</h3>
+        <!-- footer links -->
+        <ul>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-whatsapp"></i></li>
+          </ul> 
+      </footer>
+    </main>
+  </body>
 </html>
